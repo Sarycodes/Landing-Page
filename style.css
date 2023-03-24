@@ -62,3 +62,76 @@ h6 {
 }
 
 /* General Styling*/
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+.hero {
+  background-color: #1F2937;
+  height: 100vh;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 6%;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.nav-links li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+}
+.nav-links  a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+.nav-links  a:hover {
+  color: #ccbbbb;
+}
+.navbar .title {
+  font-size: 24px;
+  color: rgb(5, 100, 124);
+}
+.text-box {
+  width: 80%;
+  color: #ffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.text-box img {
+  width: 400px;
+}
+.text-box .big-text {
+  max-width: 70%;
+  line-height: 1;
+}
+.big-text h1 {
+  font-size: 37px;
+  margin-bottom: 18px;
+  
+}
+.big-text p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.big-text .btn {
+  background-color: #3882F6;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
