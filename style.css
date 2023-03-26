@@ -109,13 +109,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+
 }
 .text-box img {
   width: 400px;
 }
 .text-box .big-text {
-  max-width: 70%;
+  max-width: 50%;
   line-height: 1;
 }
 .big-text h1 {
