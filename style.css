@@ -152,7 +152,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 80px;
   flex-wrap: wrap;
 }
 
@@ -193,4 +193,38 @@ body {
   color: #3d3737;
   font-size: 18px;
   font-weight: 300;
+}
+/* blog */
+.blog {
+  padding: 5%;
+}
+.blog .cta {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 20px;
+  background-color: #1f2937;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+.cta .text-cta {
+  color: #fff;
+  max-width: 350px;
+}
+.text-cta h3 {
+  font-size: 24px;
+}
+.text-cta p {
+  font-size: 16px;
+}
+.cta .btn {
+  background-color: #3d3737;
+  border: none;
+  color:#fff;
+  border-radius: 5px;
+  padding: 8px 30px;
+  font-size: 17px;
+  font-weight: 500;
 }
